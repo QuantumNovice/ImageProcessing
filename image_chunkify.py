@@ -1,6 +1,15 @@
 '''
-Code to split image into n*m blocks.
+ Splits image into n*m blocks.
+ ======================
+ Works properly on padded images,
+ i.e type(width//parts) == int
+ Tested on 512x512 image
+ 
+Author:
+======
+Syed Haseeb Shah
 
+OpenSource
 '''
 from PIL import Image
 import numpy as np
